@@ -4,7 +4,7 @@ Pagination Control With Bar, Line, Worm, or whatever this called.
 ![](ezgif-2-3ac41bd66595.gif)
 
 ## Installation
-Download and drag to project. [Download](https://github.com/blyscuit/MaterialWormPaginationControl/MaterialWormPaginationControl.swift)
+Download and drag to project. [Download](https://github.com/blyscuit/MaterialWormPaginationControl/raw/master/MaterialWormPaginationControl.swift)
 
 ## Usage
 Subclass UIView on Storyboard or insert programmatically.
