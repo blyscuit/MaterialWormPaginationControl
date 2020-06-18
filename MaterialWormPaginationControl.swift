@@ -3,7 +3,7 @@
 //  SBITO
 //
 //  Created by Pisit W on 18/6/2563 BE.
-//  Copyright © 2563 23Perspective. All rights reserved.
+//  Copyright © 2563 Confusians. All rights reserved.
 //
 
 import UIKit
@@ -78,21 +78,6 @@ class MaterialWormPaginationControl: UIControl {
     }
     
     func customPageControl(dotFillColor:UIColor, notDotColor:UIColor, dotBorderWidth:CGFloat) {
-        //        for (pageIndex, dotView) in self.subviews.enumerated() {
-        //            if self.currentPage == pageIndex {
-        ////                dotView.backgroundColor = self.currentPageIndicatorTintColor
-        //                dotView.transform = CGAffineTransform(scaleX: 3, y: 1)
-        //                dotView.layer.cornerRadius = dotView.frame.size.height / 2
-        //            }else{
-        ////                dotView.backgroundColor = self.pageIndicatorTintColor
-        //                dotView.transform = .identity
-        //                dotView.layer.cornerRadius = dotView.frame.size.height / 2
-        //            }
-        //        }
-        
-        //        let stackView = UIStackView()
-        //        self.addSubview(stackView)
-        
         layoutIfNeeded()
         UIView.animate(withDuration: 0.3) {
             for (pageIndex, dotView) in self.stackView.arrangedSubviews.enumerated() {
@@ -106,7 +91,6 @@ class MaterialWormPaginationControl: UIControl {
                     dotView.layer.cornerRadius = dotView.frame.size.height / 2
                 }
             }
-            //            self.bounds = self.stackView.bounds
             self.layoutIfNeeded()
         }
     }
